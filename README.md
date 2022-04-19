@@ -1,14 +1,14 @@
-# _printf :page_facing_up:
+# _printf
 
 A formatted output conversion C program completed as part of the low-level
 programming and algorithm track at ALX. The program is a pseudo-
 recreation of the C standard library function, `printf`.
 
-## Dependencies :couple:
+## Dependencies
 
 The `_printf` function was coded on an Ubuntu 20.04 LTS machine with `gcc` version 4.8.4.
 
-## Usage :running:
+## Usage
 
 To use the `_printf` function, assuming the above dependencies have been installed,
 compile all `.c` files in the repository and include the header `main.h` with
@@ -38,7 +38,7 @@ Hello, World!
 $
 ```
 
-## Description :speech_balloon:
+## Description
 
 The function `_printf` writes output to standard output. The function writes
 under the control of a `format` string that specifies how subsequent arguments
@@ -414,7 +414,7 @@ Output:
 %
 ```
 
-## More Examples :thumbsup:
+## More Examples
 
 To print the address of ALX School in the format "972 Mission St., San
 Francisco, CA 94103" where *street*, *city* and *state* are pointers to strings:
@@ -474,16 +474,16 @@ Output:
 -9223372036854775808           -> LONG_MIN
 ```
 
-## Authors :black_nib:
+## Authors
 
 * Evans Kiprotich
 * Shalom Muraguri 
 
-## License :lock:
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## Acknowledgements :pray:
+## Acknowledgements
 
 The `_printf` function emulates functionality of the C standard library
 function `printf`. This README borrows from the Linux man page
